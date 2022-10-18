@@ -8,6 +8,7 @@
 var itemPrice = 12000;  // 숫자
 const PI = 3.1412       // 숫자(실수) + 불변객체
 let myName = "홍길동";  // 문자열
+let priceDesc = `제품의 가격 : ${itemPrice}`;   // 문자열 템플릿
 let isWoman = false;    // 불리언
 var ready;              // undefined
 var readyToNull = null;       // null
