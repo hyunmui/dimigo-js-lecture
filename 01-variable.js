@@ -11,8 +11,17 @@ let myName = "홍길동";  // 문자열
 let isWoman = false;    // 불리언
 var ready;              // undefined
 var readyToNull = null;       // null
-
 // (null == undefined) but (null !== undefined)
+
+// let VS var
+function letVerseVar() {
+    itemPrice = 100;
+    let temp = "sun";
+    console.log(itemPrice, temp);
+}
+letVerseVar();
+console.log(itemPrice, temp);
+
 
 // #2. 배열
 var fruits = ['apple', 'banana', 'orange'];
