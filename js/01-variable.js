@@ -1,18 +1,30 @@
-// 변수의 선언
+/**
+ * 01. 변수
+ * 
+ * 자바스크립트에서 변수는 주로 camelCase를 사용한다
+ */
+
 // #1. 리터럴
 var itemPrice = 12000;  // 숫자
-var myName = "홍길동";  // 문자열
-var isWoman = false;    // 불리언
+const PI = 3.1412       // 숫자(실수) + 불변객체
+let myName = "홍길동";  // 문자열
+let isWoman = false;    // 불리언
 var ready;              // undefined
+
 // #2. 배열
 var fruits = ['apple', 'banana', 'orange'];
+
 // #3. 객체(object)
 var k5 = {
     name: 'K5',
     manufacturer: 'KIA',
     hasSunroof: false,
-    year: 2021
+    year: 2021,
+    drive: function () {
+        console.log(name + ' is driving...');
+    }
 };
+
 // #4. 복합(배열 + 객체)
 var cars = [{
     name: 'K5',
@@ -29,12 +41,9 @@ var cars = [{
     manufacturer: 'Ssangyong',
     hasSunroof: false,
     year: 2019
-}]
+}];
 
-// 개발자 도구에 출력
-console.log(itemPrice);
-console.log(itemPrice, myName, isWoman, ready);
-console.log(cars);
-
-// 문서에 출력
-document.write(`<div>${myName}</div>`);
+// #5. 함수
+var hasCharacters = function (str, ch) {
+    return str.includes(ch);
+}
