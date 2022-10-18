@@ -18,14 +18,3 @@ var getPostTitles = (post) => {
 }
 var getPostAuthors = (post) => post.author;
 var getPostWriteDates = post => post.writeDate;
-
-
-// 실습: 계산기 함수 만들기
-
-// 더하기
-
-// 빼기
-
-// 곱하기
-
-// 나누기

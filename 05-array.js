@@ -1,3 +1,8 @@
+/**
+ * 05. 배열
+ * https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array
+ */
+
 // 배열 관련 함수
 var fruits = ['apple', 'banana', 'orange'];
 
@@ -17,6 +22,9 @@ console.log(firstFruit, fruits);
 
 // 이어 붙여서 문자열로 반환
 console.log(fruits.join('-'));
+
+// 정렬
+console.log(fruits.sort());
 
 // 역순 정렬
 console.log(fruits.reverse());

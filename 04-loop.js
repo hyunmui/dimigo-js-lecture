@@ -22,6 +22,11 @@ for (let i = 0; i < cars.length; i++) {
     console.log(car.name);
 }
 
+// for-of
+for (const car of cars) {
+    console.log(car.name);
+}
+
 // draw triangle
 for (let i = 0; i < 5; i++) {
     var line = '';
@@ -32,13 +37,6 @@ for (let i = 0; i < 5; i++) {
     console.log(line);
 }
 
-// TODO: 별을 역순으로 하려면 어떻게 바꾸면 될까?
-// *****
-// ****
-// ***
-// **
-// *
-
 // for of
 for (const car of cars) {
     console.log(car.name);
@@ -48,6 +46,22 @@ for (const car of cars) {
 for (const fruit of fruits) {
     console.log(fruit);
     if (fruit.length > 7) {
+        break;
+    }
+}
+
+let i = 1;
+
+while(i < 10) {
+    console.log(i++);
+}
+
+i = 1;
+
+while(true) {
+    console.log(i++);
+
+    if (i >= 10) {
         break;
     }
 }

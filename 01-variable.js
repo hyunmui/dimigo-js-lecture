@@ -10,6 +10,9 @@ const PI = 3.1412       // 숫자(실수) + 불변객체
 let myName = "홍길동";  // 문자열
 let isWoman = false;    // 불리언
 var ready;              // undefined
+var readyToNull = null;       // null
+
+// (null == undefined) but (null !== undefined)
 
 // #2. 배열
 var fruits = ['apple', 'banana', 'orange'];

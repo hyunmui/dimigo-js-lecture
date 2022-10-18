@@ -31,7 +31,6 @@ console.log(a);
 
 
 
-
 console.log(`-------------- 증감 연산 --------------`);
 var b = 20;
 console.log(b++);
